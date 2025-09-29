@@ -1,6 +1,8 @@
 import { Target, Eye, Heart, Users } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
+import tercioImg from "@/assets/tercio.png";
+import guilhermeImg from "@/assets/guilherme.png";
 
 const About = () => {
   const { t } = useTranslation();
@@ -86,8 +88,8 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {/* Tércio */}
               <Card className="p-8 space-y-6 hover:shadow-xl transition-all">
-                <div className="w-32 h-32 rounded-full bg-accent/10 flex items-center justify-center mx-auto">
-                  <span className="text-5xl font-bold text-accent">T</span>
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto">
+                  <img src={tercioImg} alt="Tércio - Co-fundador" className="w-full h-full object-cover" />
                 </div>
                 <div className="text-center space-y-3">
                   <h3 className="text-2xl font-bold text-foreground">Tércio</h3>
@@ -110,8 +112,8 @@ const About = () => {
 
               {/* Guilherme */}
               <Card className="p-8 space-y-6 hover:shadow-xl transition-all">
-                <div className="w-32 h-32 rounded-full bg-accent/10 flex items-center justify-center mx-auto">
-                  <span className="text-5xl font-bold text-accent">G</span>
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto">
+                  <img src={guilhermeImg} alt="Guilherme - Co-fundador" className="w-full h-full object-cover" />
                 </div>
                 <div className="text-center space-y-3">
                   <h3 className="text-2xl font-bold text-foreground">Guilherme</h3>
