@@ -29,8 +29,8 @@ All colors MUST be HSL.
     --muted: 210 20% 96%;
     --muted-foreground: 210 15% 45%;
     
-    /* Accent: Turquoise #40E0D0 */
-    --accent: 174 72% 56%;
+    /* Accent: Turquoise suavizado */
+    --accent: 174 50% 52%;
     --accent-foreground: 210 57% 11%;
     
     --destructive: 0 84.2% 60.2%;
@@ -38,13 +38,13 @@ All colors MUST be HSL.
     
     --border: 210 20% 90%;
     --input: 210 20% 90%;
-    --ring: 174 72% 56%;
+    --ring: 174 50% 52%;
     
     --radius: 0.5rem;
     
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(210, 57%, 11%) 0%, hsl(210, 50%, 20%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(174, 72%, 56%) 0%, hsl(180, 65%, 65%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(174, 50%, 52%) 0%, hsl(180, 50%, 58%) 100%);
     --gradient-hero: linear-gradient(135deg, hsl(210, 57%, 11%) 0%, hsl(210, 50%, 15%) 50%, hsl(174, 30%, 20%) 100%);
     
     /* Shadows */
@@ -78,7 +78,7 @@ All colors MUST be HSL.
     --muted: 210 50% 20%;
     --muted-foreground: 210 15% 70%;
     
-    --accent: 174 72% 56%;
+    --accent: 174 50% 52%;
     --accent-foreground: 210 57% 11%;
     
     --destructive: 0 62.8% 30.6%;
@@ -86,7 +86,7 @@ All colors MUST be HSL.
     
     --border: 210 50% 20%;
     --input: 210 50% 20%;
-    --ring: 174 72% 56%;
+    --ring: 174 50% 52%;
   }
 }
 
