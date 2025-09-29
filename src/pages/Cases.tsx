@@ -152,11 +152,11 @@ const Cases = () => {
       <section className="py-20 lg:py-32 gradient-accent">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-3xl mx-auto text-center space-y-8">
-            <h2 className="text-primary">Seu Projeto Pode Ser o Próximo Case de Sucesso</h2>
-            <p className="text-xl text-primary/80 leading-relaxed">
+            <h2 className="text-white">Seu Projeto Pode Ser o Próximo Case de Sucesso</h2>
+            <p className="text-xl text-white/90 leading-relaxed">
               Vamos conversar sobre como podemos ajudar seu negócio a alcançar resultados extraordinários
             </p>
-            <Button asChild variant="default" size="lg" className="text-lg h-14 px-8 bg-primary hover:bg-primary/90">
+            <Button asChild variant="default" size="lg" className="text-lg h-14 px-8 bg-white text-accent hover:bg-white/90">
               <Link to="/contato">
                 Iniciar Meu Projeto
                 <ArrowRight className="ml-2" size={20} />
