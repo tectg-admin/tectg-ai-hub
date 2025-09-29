@@ -9,22 +9,22 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-white border-t border-white/10">
       <div className="container mx-auto px-4 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center md:text-left">
           {/* Logo e Descrição */}
-          <div className="space-y-4">
+          <div className="space-y-4 flex flex-col items-center md:items-start">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
                 <span className="text-primary font-bold text-xl">T</span>
               </div>
               <span className="text-2xl font-bold">TECTG</span>
             </div>
-            <p className="text-white/70 text-sm leading-relaxed">
+            <p className="text-white/70 text-sm leading-relaxed max-w-xs">
               {t('footer.description')}
             </p>
           </div>
 
           {/* Links Rápidos */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h3 className="text-lg font-semibold mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
 
           {/* Serviços */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h3 className="text-lg font-semibold mb-4">{t('nav.services')}</h3>
             <ul className="space-y-2">
               <li>
@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
 
           {/* Contato */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h3 className="text-lg font-semibold mb-4">{t('footer.contact')}</h3>
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-white/70 text-sm">
@@ -96,7 +96,7 @@ const Footer = () => {
             </ul>
             <div className="mt-6">
               <p className="text-sm text-white/70 mb-3">{t('footer.followUs')}</p>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 justify-center md:justify-start">
                 <a
                   href="https://linkedin.com"
                   target="_blank"
