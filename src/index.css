@@ -8,51 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* TECTG Brand Colors */
+    /* TECTG Brand Colors - From Logo */
     --background: 0 0% 100%;
-    --foreground: 210 57% 11%;
+    --foreground: 214 35% 15%;
     
     --card: 0 0% 100%;
-    --card-foreground: 210 57% 11%;
+    --card-foreground: 214 35% 15%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 210 57% 11%;
+    --popover-foreground: 214 35% 15%;
     
-    /* Primary: Navy Blue #0D1B2A */
-    --primary: 210 57% 11%;
+    /* Primary: Dark Navy Blue from logo */
+    --primary: 214 35% 15%;
     --primary-foreground: 0 0% 100%;
     
-    /* Secondary: Light backgrounds */
-    --secondary: 210 20% 98%;
-    --secondary-foreground: 210 57% 11%;
+    /* Secondary: Light off-white backgrounds */
+    --secondary: 30 20% 97%;
+    --secondary-foreground: 214 35% 15%;
     
-    --muted: 210 20% 96%;
-    --muted-foreground: 210 15% 45%;
+    --muted: 30 20% 95%;
+    --muted-foreground: 214 15% 45%;
     
-    /* Accent: Turquoise #40E0D0 */
-    --accent: 174 72% 56%;
-    --accent-foreground: 210 57% 11%;
+    /* Accent: Turquoise/Cyan from logo */
+    --accent: 178 45% 65%;
+    --accent-foreground: 214 35% 15%;
     
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
     
-    --border: 210 20% 90%;
-    --input: 210 20% 90%;
-    --ring: 174 72% 56%;
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 178 45% 65%;
     
     --radius: 0.5rem;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(210, 57%, 11%) 0%, hsl(210, 50%, 20%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(174, 72%, 56%) 0%, hsl(180, 65%, 65%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(210, 57%, 11%) 0%, hsl(210, 50%, 15%) 50%, hsl(174, 30%, 20%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(214, 35%, 15%) 0%, hsl(214, 30%, 22%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(178, 45%, 65%) 0%, hsl(178, 50%, 55%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(214, 35%, 15%) 0%, hsl(214, 30%, 20%) 50%, hsl(190, 30%, 25%) 100%);
     
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 rgba(13, 27, 42, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(13, 27, 42, 0.1), 0 2px 4px -1px rgba(13, 27, 42, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(13, 27, 42, 0.1), 0 4px 6px -2px rgba(13, 27, 42, 0.05);
-    --shadow-xl: 0 20px 25px -5px rgba(13, 27, 42, 0.1), 0 10px 10px -5px rgba(13, 27, 42, 0.04);
-    --shadow-accent: 0 10px 30px -5px rgba(64, 224, 208, 0.3);
+    --shadow-sm: 0 1px 2px 0 rgba(26, 35, 50, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(26, 35, 50, 0.1), 0 2px 4px -1px rgba(26, 35, 50, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(26, 35, 50, 0.1), 0 4px 6px -2px rgba(26, 35, 50, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(26, 35, 50, 0.1), 0 10px 10px -5px rgba(26, 35, 50, 0.04);
+    --shadow-accent: 0 10px 30px -5px rgba(125, 211, 208, 0.3);
     
     /* Transitions */
     --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -60,33 +60,33 @@ All colors MUST be HSL.
   }
   
   .dark {
-    --background: 210 57% 11%;
+    --background: 214 35% 15%;
     --foreground: 0 0% 100%;
     
-    --card: 210 50% 15%;
+    --card: 214 32% 18%;
     --card-foreground: 0 0% 100%;
     
-    --popover: 210 50% 15%;
+    --popover: 214 32% 18%;
     --popover-foreground: 0 0% 100%;
     
     --primary: 0 0% 100%;
-    --primary-foreground: 210 57% 11%;
+    --primary-foreground: 214 35% 15%;
     
-    --secondary: 210 50% 20%;
+    --secondary: 214 30% 20%;
     --secondary-foreground: 0 0% 100%;
     
-    --muted: 210 50% 20%;
-    --muted-foreground: 210 15% 70%;
+    --muted: 214 28% 22%;
+    --muted-foreground: 214 15% 70%;
     
-    --accent: 174 72% 56%;
-    --accent-foreground: 210 57% 11%;
+    --accent: 178 45% 65%;
+    --accent-foreground: 214 35% 15%;
     
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
     
-    --border: 210 50% 20%;
-    --input: 210 50% 20%;
-    --ring: 174 72% 56%;
+    --border: 214 28% 25%;
+    --input: 214 28% 25%;
+    --ring: 178 45% 65%;
   }
 }
 
