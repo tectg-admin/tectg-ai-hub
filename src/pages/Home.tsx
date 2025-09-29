@@ -1,9 +1,16 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import ServiceCard from "@/components/ServiceCard";
+import AnimatedServiceCard from "@/components/AnimatedServiceCard";
 import { Brain, Code, Smartphone, ArrowRight, CheckCircle2 } from "lucide-react";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const Home = () => {
+  const heroRef = useScrollReveal({ delay: 0 });
+  const aboutRef = useScrollReveal({ delay: 0.1 });
+  const servicesRef = useScrollReveal({ delay: 0.2 });
+  const benefitsRef = useScrollReveal({ delay: 0.1 });
+  const ctaRef = useScrollReveal({ delay: 0 });
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -15,7 +22,7 @@ const Home = () => {
         </div>
 
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
-          <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in-up">
+          <div ref={heroRef} className="max-w-4xl mx-auto text-center space-y-8">
             <h1 className="text-white leading-tight">
               Transformamos Negócios com{" "}
               <span className="text-gradient">Inteligência Artificial</span>
@@ -41,7 +48,7 @@ const Home = () => {
       {/* Quem Somos */}
       <section className="py-20 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">
+          <div ref={aboutRef} className="max-w-4xl mx-auto text-center space-y-6">
             <h2 className="text-foreground">Quem Somos</h2>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
               A TECTG é uma empresa de tecnologia especializada em desenvolver soluções de Inteligência Artificial que transformam a forma como empresas operam e crescem. Combinamos expertise técnica com visão estratégica para entregar resultados mensuráveis.
@@ -67,7 +74,7 @@ const Home = () => {
       {/* Serviços em Destaque */}
       <section className="py-20 lg:py-32 bg-secondary">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="text-center space-y-4 mb-16 animate-fade-in">
+          <div ref={servicesRef} className="text-center space-y-4 mb-16">
             <h2 className="text-foreground">Nossas Soluções</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Oferecemos soluções tecnológicas completas para impulsionar o crescimento do seu negócio
@@ -75,23 +82,26 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <ServiceCard
+            <AnimatedServiceCard
               icon={Brain}
               title="Inteligência Artificial"
               description="Automação inteligente, análise preditiva e machine learning personalizado para otimizar seus processos e gerar insights data-driven."
               gradient
+              delay={0.1}
             />
-            <ServiceCard
+            <AnimatedServiceCard
               icon={Code}
               title="Software Sob Medida"
               description="Plataformas web robustas, sistemas corporativos escaláveis e APIs seguras desenvolvidas com as mais modernas tecnologias."
               gradient
+              delay={0.2}
             />
-            <ServiceCard
+            <AnimatedServiceCard
               icon={Smartphone}
               title="Apps Mobile"
               description="Aplicativos nativos iOS e Android de alta performance com UX otimizada e design premium para máximo engajamento."
               gradient
+              delay={0.3}
             />
           </div>
 
@@ -109,7 +119,7 @@ const Home = () => {
       {/* Benefícios */}
       <section className="py-20 lg:py-32 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="max-w-5xl mx-auto">
+          <div ref={benefitsRef} className="max-w-5xl mx-auto">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-foreground">Por que escolher a TECTG?</h2>
               <p className="text-lg text-muted-foreground">
@@ -144,7 +154,7 @@ const Home = () => {
         </div>
 
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
-          <div className="max-w-3xl mx-auto text-center space-y-8">
+          <div ref={ctaRef} className="max-w-3xl mx-auto text-center space-y-8">
             <h2 className="text-primary">Pronto para Inovar?</h2>
             <p className="text-xl text-primary/80 leading-relaxed">
               Vamos conversar sobre como a TECTG pode transformar o seu negócio com soluções inteligentes e personalizadas.
