@@ -155,11 +155,11 @@ const Home = () => {
 
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div ref={ctaRef} className="max-w-3xl mx-auto text-center space-y-8">
-            <h2 className="text-primary">Pronto para Inovar?</h2>
-            <p className="text-xl text-primary/80 leading-relaxed">
+            <h2 className="text-white">Pronto para Inovar?</h2>
+            <p className="text-xl text-white/90 leading-relaxed">
               Vamos conversar sobre como a TECTG pode transformar o seu negócio com soluções inteligentes e personalizadas.
             </p>
-            <Button asChild variant="default" size="lg" className="text-lg h-14 px-8 bg-primary hover:bg-primary/90">
+            <Button asChild variant="default" size="lg" className="text-lg h-14 px-8 bg-white text-accent hover:bg-white/90">
               <Link to="/contato">
                 Vamos Conversar
                 <ArrowRight className="ml-2" size={20} />
