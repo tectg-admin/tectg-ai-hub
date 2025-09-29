@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/tectg-logo.png";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -22,11 +23,12 @@ const Header = () => {
       <nav className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center transition-transform group-hover:scale-110">
-              <span className="text-primary font-bold text-xl">T</span>
-            </div>
-            <span className="text-2xl font-bold text-white">TECTG</span>
+          <Link to="/" className="flex items-center space-x-3 group">
+            <img 
+              src={logo} 
+              alt="TECTG Logo" 
+              className="h-12 w-auto transition-transform group-hover:scale-105"
+            />
           </Link>
 
           {/* Desktop Navigation */}
