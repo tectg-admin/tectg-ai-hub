@@ -3,17 +3,20 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import logo from "@/assets/tectg-logo.png";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation();
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "Sobre", href: "/sobre" },
-    { name: "Serviços", href: "/servicos" },
-    { name: "Cases", href: "/cases" },
-    { name: "Contato", href: "/contato" },
+    { name: t('nav.home'), href: "/" },
+    { name: t('nav.about'), href: "/sobre" },
+    { name: t('nav.services'), href: "/servicos" },
+    { name: t('nav.cases'), href: "/cases" },
+    { name: t('nav.contact'), href: "/contato" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -48,10 +51,11 @@ const Header = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* Language Switcher & CTA Button */}
+          <div className="hidden md:flex items-center gap-2">
+            <LanguageSwitcher />
             <Button asChild variant="accent" size="lg">
-              <Link to="/contato">Fale Conosco</Link>
+              <Link to="/contato">{t('nav.cta')}</Link>
             </Button>
           </div>
 
@@ -83,11 +87,14 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button asChild variant="accent" size="lg" className="mt-4">
-                <Link to="/contato" onClick={() => setMobileMenuOpen(false)}>
-                  Fale Conosco
-                </Link>
-              </Button>
+              <div className="mt-4 space-y-2">
+                <LanguageSwitcher />
+                <Button asChild variant="accent" size="lg" className="w-full">
+                  <Link to="/contato" onClick={() => setMobileMenuOpen(false)}>
+                    {t('nav.cta')}
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
         )}

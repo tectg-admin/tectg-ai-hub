@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "会社概要",
+    "services": "サービス",
+    "cases": "事例",
+    "contact": "お問い合わせ",
+    "cta": "お問い合わせ"
+  },
+  "home": {
+    "hero": {
+      "title": "ビジネスを変革する",
+      "highlight": "人工知能",
+      "subtitle": "御社のイノベーションを推進するカスタムAI、ソフトウェア、モバイルアプリソリューションを開発します",
+      "cta1": "プロジェクト開始",
+      "cta2": "サービスを見る"
+    },
+    "about": {
+      "title": "私たちについて",
+      "subtitle": "TECTGは人工知能ソリューションとカスタムソフトウェア開発の専門家です。複雑な課題を成長の機会に変えます。",
+      "projects": "納品プロジェクト",
+      "satisfaction": "満足度",
+      "experience": "年の経験"
+    },
+    "services": {
+      "title": "サービス",
+      "subtitle": "ビジネスのためのカスタムテクノロジーソリューション",
+      "ai": {
+        "title": "人工知能",
+        "description": "プロセスを自動化し、貴重な洞察を生み出すカスタムAIソリューションを実装します"
+      },
+      "software": {
+        "title": "カスタムソフトウェア",
+        "description": "ビジネスニーズに完全に対応するカスタムシステムを開発します"
+      },
+      "mobile": {
+        "title": "モバイルアプリ",
+        "description": "ユーザーエクスペリエンスに焦点を当てたネイティブおよびハイブリッドモバイルアプリケーションを作成します"
+      },
+      "viewAll": "すべてのサービスを見る"
+    },
+    "benefits": {
+      "title": "TECTGを選ぶ理由",
+      "subtitle": "実証済みの結果とビジネスへの実質的なメリット",
+      "costReduction": "運用コスト削減",
+      "productivity": "生産性向上",
+      "insights": "データ駆動型の洞察",
+      "support": "専門的な技術サポート",
+      "scalability": "スケーラブルなソリューション",
+      "innovation": "継続的なイノベーション"
+    },
+    "cta": {
+      "title": "イノベーションの準備はできましたか？",
+      "subtitle": "最先端技術でビジネスを変革する方法をご相談ください",
+      "button": "お問い合わせ"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "TECTGについて",
+      "subtitle": "すべてのプロジェクトにイノベーションと卓越性を"
+    },
+    "journey": {
+      "title": "私たちの歩み",
+      "description": "テクノロジーをアクセシブルで変革的なものにするという使命を持って設立されたTECTGは、真の違いを生み出すソリューションを作る情熱から生まれました。私たちのチームは技術的専門知識とビジネスビジョンを組み合わせて、卓越した結果を提供します。"
+    },
+    "mission": {
+      "title": "ミッション",
+      "description": "クライアントの成長とデジタル変革を推進する革新的な技術ソリューションを開発する。"
+    },
+    "vision": {
+      "title": "ビジョン",
+      "description": "卓越性とイノベーションで認められるAIおよびカスタムソフトウェア開発のリファレンスになる。"
+    },
+    "values": {
+      "title": "価値観",
+      "description": "卓越性、イノベーション、透明性、そしてクライアントに真の価値を生み出す結果へのコミットメント。"
+    },
+    "founders": {
+      "title": "創業者",
+      "tercio": {
+        "role": "共同創業者 & CTO",
+        "specialty": "専門分野：",
+        "skills": [
+          "人工知能 & 機械学習",
+          "ソフトウェアアーキテクチャ",
+          "クラウドコンピューティング"
+        ]
+      },
+      "guilherme": {
+        "role": "共同創業者 & CEO",
+        "specialty": "専門分野：",
+        "skills": [
+          "ビジネス戦略",
+          "プロジェクト管理",
+          "フルスタック開発"
+        ]
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "サービス",
+      "subtitle": "ビジネスを変革する完全なテクノロジーソリューション"
+    },
+    "ai": {
+      "title": "人工知能",
+      "description": "プロセスを自動化し、貴重な洞察を生み出し、戦略的な意思決定を推進するカスタムAIソリューションを開発します。",
+      "benefits": [
+        "インテリジェントなプロセス自動化",
+        "予測データ分析",
+        "チャットボットと仮想アシスタント",
+        "コンピュータビジョン",
+        "自然言語処理"
+      ],
+      "technologies": ["TensorFlow", "PyTorch", "OpenAI", "LangChain", "Hugging Face"]
+    },
+    "software": {
+      "title": "カスタムソフトウェア",
+      "description": "ERPから複雑なプラットフォームまで、ビジネスの特定のニーズに完全に対応するカスタムシステムを作成します。",
+      "benefits": [
+        "スケーラブルなウェブシステム",
+        "堅牢なAPI",
+        "レガシーシステムとの統合",
+        "分析ダッシュボード",
+        "ワークフロー自動化"
+      ],
+      "technologies": ["React", "Node.js", "Python", "PostgreSQL", "AWS"]
+    },
+    "mobile": {
+      "title": "モバイルアプリケーション",
+      "description": "パフォーマンス、使いやすさ、優れたユーザーエクスペリエンスに焦点を当てたネイティブおよびハイブリッドモバイルアプリを開発します。",
+      "benefits": [
+        "iOSおよびAndroidアプリ",
+        "レスポンシブデザイン",
+        "API統合",
+        "オフライン機能",
+        "プッシュ通知"
+      ],
+      "technologies": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase"]
+    },
+    "process": {
+      "title": "私たちのプロセス",
+      "discovery": {
+        "title": "発見",
+        "description": "ビジネスと課題を深く理解します"
+      },
+      "planning": {
+        "title": "計画",
+        "description": "詳細でパーソナライズされた戦略を作成します"
+      },
+      "development": {
+        "title": "開発",
+        "description": "技術的卓越性と俊敏性で実行します"
+      },
+      "delivery": {
+        "title": "納品",
+        "description": "品質と継続的なサポートを保証します"
+      }
+    },
+    "cta": {
+      "title": "プロジェクトを始めましょう",
+      "description": "アイデアを実現する方法をご相談ください",
+      "button": "専門家に相談"
+    }
+  },
+  "cases": {
+    "hero": {
+      "title": "成功事例",
+      "subtitle": "ビジネスを変革したプロジェクトをご覧ください"
+    },
+    "case1": {
+      "title": "Eコマース向けAIシステム",
+      "description": "リアルタイムでユーザー行動を分析するインテリジェントレコメンデーションシステムを開発しました。",
+      "result": "売上45%増",
+      "technologies": ["Python", "TensorFlow", "React", "AWS"]
+    },
+    "case2": {
+      "title": "物流向けモバイルアプリ",
+      "description": "リアルタイム追跡とルート最適化を備えた完全な配送管理アプリ。",
+      "result": "コスト30%削減",
+      "technologies": ["React Native", "Node.js", "MongoDB", "Google Maps API"]
+    },
+    "case3": {
+      "title": "ビジネス管理プラットフォーム",
+      "description": "生産、在庫、財務モジュールを備えた産業向けの完全カスタムERPシステム。",
+      "result": "効率50%向上",
+      "technologies": ["React", "Python", "PostgreSQL", "Docker"]
+    },
+    "testimonials": {
+      "title": "お客様の声",
+      "testimonial1": {
+        "text": "TECTGは私たちの業務を完全に変革しました。開発したAIシステムはすべての期待を超えました。",
+        "author": "ジョン・シルバ",
+        "role": "CEO、TechCorp"
+      },
+      "testimonial2": {
+        "text": "卓越したプロフェッショナリズムと技術的専門知識。作成したアプリはまさに私たちが必要としていたものです。",
+        "author": "メアリー・サントス",
+        "role": "IT部長、LogiMove"
+      },
+      "testimonial3": {
+        "text": "実質的な結果を生み出した戦略的パートナーシップ。TECTGを強くお勧めします。",
+        "author": "チャールズ・オリベイラ",
+        "role": "ゼネラルマネージャー、XYZ工業"
+      }
+    },
+    "cta": {
+      "title": "次の成功事例になる準備はできましたか？",
+      "button": "プロジェクトを開始"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "お問い合わせ",
+      "subtitle": "アイデアを実現する準備ができています"
+    },
+    "info": {
+      "title": "連絡先情報",
+      "email": "contact@tectg.com",
+      "phone": "+55 (11) 99999-9999",
+      "location": "サンパウロ、ブラジル"
+    },
+    "form": {
+      "title": "メッセージを送信",
+      "name": "名前",
+      "email": "メール",
+      "company": "会社名",
+      "phone": "電話",
+      "projectType": "プロジェクトタイプ",
+      "message": "メッセージ",
+      "submit": "メッセージを送信",
+      "projectTypes": {
+        "ai": "人工知能",
+        "software": "カスタムソフトウェア",
+        "mobile": "モバイルアプリ",
+        "consulting": "コンサルティング",
+        "other": "その他"
+      },
+      "success": "メッセージが正常に送信されました！",
+      "error": "メッセージの送信中にエラーが発生しました。もう一度お試しください。"
+    },
+    "cta": {
+      "title": "直接お話しされたいですか？",
+      "description": "より迅速なサービスのためにWhatsAppでお問い合わせください",
+      "button": "WhatsAppでチャット"
+    }
+  },
+  "footer": {
+    "description": "テクノロジーとイノベーションでビジネスを変革",
+    "quickLinks": "クイックリンク",
+    "contact": "お問い合わせ",
+    "followUs": "フォローする",
+    "rights": "すべての権利予約。"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "cases": "Cases",
+    "contact": "Contato",
+    "cta": "Fale Conosco"
+  },
+  "home": {
+    "hero": {
+      "title": "Transforme Seu Negócio com",
+      "highlight": "Inteligência Artificial",
+      "subtitle": "Desenvolvemos soluções personalizadas em IA, software e aplicativos móveis para impulsionar a inovação da sua empresa",
+      "cta1": "Começar Projeto",
+      "cta2": "Conhecer Serviços"
+    },
+    "about": {
+      "title": "Sobre Nós",
+      "subtitle": "Somos a TECTG, especialistas em soluções de Inteligência Artificial e desenvolvimento de software sob medida. Transformamos desafios complexos em oportunidades de crescimento.",
+      "projects": "Projetos Entregues",
+      "satisfaction": "Satisfação",
+      "experience": "Anos de Experiência"
+    },
+    "services": {
+      "title": "Nossos Serviços",
+      "subtitle": "Soluções tecnológicas sob medida para o seu negócio",
+      "ai": {
+        "title": "Inteligência Artificial",
+        "description": "Implementamos soluções de IA personalizadas para automatizar processos e gerar insights valiosos"
+      },
+      "software": {
+        "title": "Software Sob Medida",
+        "description": "Desenvolvemos sistemas personalizados que atendem perfeitamente às necessidades do seu negócio"
+      },
+      "mobile": {
+        "title": "Apps Mobile",
+        "description": "Criamos aplicativos móveis nativos e híbridos com foco em experiência do usuário"
+      },
+      "viewAll": "Ver Todos os Serviços"
+    },
+    "benefits": {
+      "title": "Por Que Escolher a TECTG?",
+      "subtitle": "Resultados comprovados e benefícios reais para o seu negócio",
+      "costReduction": "Redução de custos operacionais",
+      "productivity": "Aumento da produtividade",
+      "insights": "Insights baseados em dados",
+      "support": "Suporte técnico especializado",
+      "scalability": "Soluções escaláveis",
+      "innovation": "Inovação constante"
+    },
+    "cta": {
+      "title": "Pronto para Inovar?",
+      "subtitle": "Entre em contato conosco e descubra como podemos transformar seu negócio com tecnologia de ponta",
+      "button": "Fale Conosco"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Sobre a TECTG",
+      "subtitle": "Inovação e excelência em cada projeto"
+    },
+    "journey": {
+      "title": "Nossa Jornada",
+      "description": "Fundada com a missão de tornar a tecnologia acessível e transformadora, a TECTG nasceu da paixão por criar soluções que realmente fazem a diferença. Nossa equipe combina expertise técnica com visão de negócio para entregar resultados excepcionais."
+    },
+    "mission": {
+      "title": "Missão",
+      "description": "Desenvolver soluções tecnológicas inovadoras que impulsionem o crescimento e a transformação digital dos nossos clientes."
+    },
+    "vision": {
+      "title": "Visão",
+      "description": "Ser referência em desenvolvimento de IA e software personalizado, reconhecida pela excelência e inovação."
+    },
+    "values": {
+      "title": "Valores",
+      "description": "Excelência, Inovação, Transparência e Compromisso com resultados que geram valor real para nossos clientes."
+    },
+    "founders": {
+      "title": "Nossos Fundadores",
+      "tercio": {
+        "role": "Co-Fundador & CTO",
+        "specialty": "Especialista em:",
+        "skills": [
+          "Inteligência Artificial & Machine Learning",
+          "Arquitetura de Software",
+          "Cloud Computing"
+        ]
+      },
+      "guilherme": {
+        "role": "Co-Fundador & CEO",
+        "specialty": "Especialista em:",
+        "skills": [
+          "Estratégia de Negócios",
+          "Gestão de Projetos",
+          "Desenvolvimento Full-Stack"
+        ]
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Nossos Serviços",
+      "subtitle": "Soluções tecnológicas completas para transformar seu negócio"
+    },
+    "ai": {
+      "title": "Inteligência Artificial",
+      "description": "Desenvolvemos soluções de IA personalizadas que automatizam processos, geram insights valiosos e impulsionam a tomada de decisões estratégicas.",
+      "benefits": [
+        "Automação inteligente de processos",
+        "Análise preditiva de dados",
+        "Chatbots e assistentes virtuais",
+        "Visão computacional",
+        "Processamento de linguagem natural"
+      ],
+      "technologies": ["TensorFlow", "PyTorch", "OpenAI", "LangChain", "Hugging Face"]
+    },
+    "software": {
+      "title": "Software Sob Medida",
+      "description": "Criamos sistemas personalizados que atendem perfeitamente às necessidades específicas do seu negócio, desde ERPs até plataformas complexas.",
+      "benefits": [
+        "Sistemas web escaláveis",
+        "APIs robustas",
+        "Integração com sistemas legados",
+        "Dashboards analíticos",
+        "Automação de workflows"
+      ],
+      "technologies": ["React", "Node.js", "Python", "PostgreSQL", "AWS"]
+    },
+    "mobile": {
+      "title": "Aplicativos Mobile",
+      "description": "Desenvolvemos apps móveis nativos e híbridos com foco em performance, usabilidade e experiência do usuário excepcional.",
+      "benefits": [
+        "Apps iOS e Android",
+        "Design responsivo",
+        "Integração com APIs",
+        "Funcionalidades offline",
+        "Push notifications"
+      ],
+      "technologies": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase"]
+    },
+    "process": {
+      "title": "Nosso Processo",
+      "discovery": {
+        "title": "Descoberta",
+        "description": "Entendemos profundamente seu negócio e desafios"
+      },
+      "planning": {
+        "title": "Planejamento",
+        "description": "Criamos uma estratégia detalhada e personalizada"
+      },
+      "development": {
+        "title": "Desenvolvimento",
+        "description": "Executamos com excelência técnica e agilidade"
+      },
+      "delivery": {
+        "title": "Entrega",
+        "description": "Garantimos qualidade e suporte contínuo"
+      }
+    },
+    "cta": {
+      "title": "Vamos Começar Seu Projeto?",
+      "description": "Entre em contato conosco e descubra como podemos transformar suas ideias em realidade",
+      "button": "Falar com Especialista"
+    }
+  },
+  "cases": {
+    "hero": {
+      "title": "Nossos Cases de Sucesso",
+      "subtitle": "Conheça alguns dos projetos que transformaram negócios"
+    },
+    "case1": {
+      "title": "Sistema de IA para E-commerce",
+      "description": "Desenvolvemos um sistema de recomendação inteligente que analisa o comportamento do usuário em tempo real.",
+      "result": "+45% nas vendas",
+      "technologies": ["Python", "TensorFlow", "React", "AWS"]
+    },
+    "case2": {
+      "title": "App Mobile para Logística",
+      "description": "Aplicativo completo para gestão de entregas com rastreamento em tempo real e otimização de rotas.",
+      "result": "30% de redução em custos",
+      "technologies": ["React Native", "Node.js", "MongoDB", "Google Maps API"]
+    },
+    "case3": {
+      "title": "Plataforma de Gestão Empresarial",
+      "description": "Sistema completo de ERP personalizado para indústria com módulos de produção, estoque e financeiro.",
+      "result": "50% mais eficiência",
+      "technologies": ["React", "Python", "PostgreSQL", "Docker"]
+    },
+    "testimonials": {
+      "title": "O Que Nossos Clientes Dizem",
+      "testimonial1": {
+        "text": "A TECTG transformou completamente nossa operação. O sistema de IA que desenvolveram superou todas as expectativas.",
+        "author": "João Silva",
+        "role": "CEO, TechCorp"
+      },
+      "testimonial2": {
+        "text": "Profissionalismo e expertise técnica excepcionais. O app que criaram é exatamente o que precisávamos.",
+        "author": "Maria Santos",
+        "role": "Diretora de TI, LogiMove"
+      },
+      "testimonial3": {
+        "text": "Parceria estratégica que gerou resultados reais. Recomendo fortemente a TECTG.",
+        "author": "Carlos Oliveira",
+        "role": "Gerente Geral, Indústrias XYZ"
+      }
+    },
+    "cta": {
+      "title": "Pronto para Ser Nosso Próximo Case de Sucesso?",
+      "button": "Iniciar Meu Projeto"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Entre em Contato",
+      "subtitle": "Estamos prontos para transformar suas ideias em realidade"
+    },
+    "info": {
+      "title": "Informações de Contato",
+      "email": "contato@tectg.com.br",
+      "phone": "+55 (11) 99999-9999",
+      "location": "São Paulo, Brasil"
+    },
+    "form": {
+      "title": "Envie Sua Mensagem",
+      "name": "Nome",
+      "email": "E-mail",
+      "company": "Empresa",
+      "phone": "Telefone",
+      "projectType": "Tipo de Projeto",
+      "message": "Mensagem",
+      "submit": "Enviar Mensagem",
+      "projectTypes": {
+        "ai": "Inteligência Artificial",
+        "software": "Software Sob Medida",
+        "mobile": "App Mobile",
+        "consulting": "Consultoria",
+        "other": "Outro"
+      },
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem. Tente novamente."
+    },
+    "cta": {
+      "title": "Prefere Conversar Diretamente?",
+      "description": "Entre em contato conosco via WhatsApp para um atendimento mais rápido",
+      "button": "Chamar no WhatsApp"
+    }
+  },
+  "footer": {
+    "description": "Transformando negócios através da tecnologia e inovação",
+    "quickLinks": "Links Rápidos",
+    "contact": "Contato",
+    "followUs": "Siga-nos",
+    "rights": "Todos os direitos reservados."
+  }
+}

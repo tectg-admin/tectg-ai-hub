@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, Linkedin, Instagram } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -17,32 +19,32 @@ const Footer = () => {
               <span className="text-2xl font-bold">TECTG</span>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Transformamos negócios com soluções inteligentes de IA e desenvolvimento de software de alta performance.
+              {t('footer.description')}
             </p>
           </div>
 
           {/* Links Rápidos */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Links Rápidos</h3>
+            <h3 className="text-lg font-semibold mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-white/70 hover:text-accent transition-colors text-sm">
-                  Home
+                  {t('nav.home')}
                 </Link>
               </li>
               <li>
                 <Link to="/sobre" className="text-white/70 hover:text-accent transition-colors text-sm">
-                  Sobre Nós
+                  {t('nav.about')}
                 </Link>
               </li>
               <li>
                 <Link to="/cases" className="text-white/70 hover:text-accent transition-colors text-sm">
-                  Cases de Sucesso
+                  {t('nav.cases')}
                 </Link>
               </li>
               <li>
                 <Link to="/contato" className="text-white/70 hover:text-accent transition-colors text-sm">
-                  Contato
+                  {t('nav.contact')}
                 </Link>
               </li>
             </ul>
@@ -50,26 +52,26 @@ const Footer = () => {
 
           {/* Serviços */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Serviços</h3>
+            <h3 className="text-lg font-semibold mb-4">{t('nav.services')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/servicos" className="text-white/70 hover:text-accent transition-colors text-sm">
-                  Inteligência Artificial
+                  {t('home.services.ai.title')}
                 </Link>
               </li>
               <li>
                 <Link to="/servicos" className="text-white/70 hover:text-accent transition-colors text-sm">
-                  Desenvolvimento de Software
+                  {t('home.services.software.title')}
                 </Link>
               </li>
               <li>
                 <Link to="/servicos" className="text-white/70 hover:text-accent transition-colors text-sm">
-                  Aplicativos Mobile
+                  {t('home.services.mobile.title')}
                 </Link>
               </li>
               <li>
                 <Link to="/servicos" className="text-white/70 hover:text-accent transition-colors text-sm">
-                  Consultoria em Tecnologia
+                  {t('contact.form.projectTypes.consulting')}
                 </Link>
               </li>
             </ul>
@@ -77,7 +79,7 @@ const Footer = () => {
 
           {/* Contato */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contato</h3>
+            <h3 className="text-lg font-semibold mb-4">{t('footer.contact')}</h3>
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-white/70 text-sm">
                 <Mail size={16} className="text-accent" />
@@ -92,23 +94,26 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-            <div className="flex space-x-4 mt-6">
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-all"
-              >
-                <Linkedin size={20} />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-all"
-              >
-                <Instagram size={20} />
-              </a>
+            <div className="mt-6">
+              <p className="text-sm text-white/70 mb-3">{t('footer.followUs')}</p>
+              <div className="flex space-x-4">
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-all"
+                >
+                  <Linkedin size={20} />
+                </a>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-all"
+                >
+                  <Instagram size={20} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -116,7 +121,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-white/10">
           <p className="text-center text-white/60 text-sm">
-            © {currentYear} TECTG. Todos os direitos reservados.
+            © {currentYear} TECTG. {t('footer.rights')}
           </p>
         </div>
       </div>

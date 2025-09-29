@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "cases": "Cases",
+    "contact": "Contact",
+    "cta": "Contact Us"
+  },
+  "home": {
+    "hero": {
+      "title": "Transform Your Business with",
+      "highlight": "Artificial Intelligence",
+      "subtitle": "We develop custom AI, software, and mobile app solutions to drive your company's innovation",
+      "cta1": "Start Project",
+      "cta2": "Learn About Services"
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "We are TECTG, experts in Artificial Intelligence solutions and custom software development. We transform complex challenges into growth opportunities.",
+      "projects": "Projects Delivered",
+      "satisfaction": "Satisfaction",
+      "experience": "Years of Experience"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Custom technology solutions for your business",
+      "ai": {
+        "title": "Artificial Intelligence",
+        "description": "We implement custom AI solutions to automate processes and generate valuable insights"
+      },
+      "software": {
+        "title": "Custom Software",
+        "description": "We develop custom systems that perfectly meet your business needs"
+      },
+      "mobile": {
+        "title": "Mobile Apps",
+        "description": "We create native and hybrid mobile applications focused on user experience"
+      },
+      "viewAll": "View All Services"
+    },
+    "benefits": {
+      "title": "Why Choose TECTG?",
+      "subtitle": "Proven results and real benefits for your business",
+      "costReduction": "Operational cost reduction",
+      "productivity": "Increased productivity",
+      "insights": "Data-driven insights",
+      "support": "Specialized technical support",
+      "scalability": "Scalable solutions",
+      "innovation": "Constant innovation"
+    },
+    "cta": {
+      "title": "Ready to Innovate?",
+      "subtitle": "Contact us and discover how we can transform your business with cutting-edge technology",
+      "button": "Contact Us"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About TECTG",
+      "subtitle": "Innovation and excellence in every project"
+    },
+    "journey": {
+      "title": "Our Journey",
+      "description": "Founded with the mission to make technology accessible and transformative, TECTG was born from a passion for creating solutions that truly make a difference. Our team combines technical expertise with business vision to deliver exceptional results."
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Develop innovative technological solutions that drive growth and digital transformation for our clients."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "To be a reference in AI and custom software development, recognized for excellence and innovation."
+    },
+    "values": {
+      "title": "Values",
+      "description": "Excellence, Innovation, Transparency, and Commitment to results that generate real value for our clients."
+    },
+    "founders": {
+      "title": "Our Founders",
+      "tercio": {
+        "role": "Co-Founder & CTO",
+        "specialty": "Specialist in:",
+        "skills": [
+          "Artificial Intelligence & Machine Learning",
+          "Software Architecture",
+          "Cloud Computing"
+        ]
+      },
+      "guilherme": {
+        "role": "Co-Founder & CEO",
+        "specialty": "Specialist in:",
+        "skills": [
+          "Business Strategy",
+          "Project Management",
+          "Full-Stack Development"
+        ]
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Complete technology solutions to transform your business"
+    },
+    "ai": {
+      "title": "Artificial Intelligence",
+      "description": "We develop custom AI solutions that automate processes, generate valuable insights, and drive strategic decision-making.",
+      "benefits": [
+        "Intelligent process automation",
+        "Predictive data analysis",
+        "Chatbots and virtual assistants",
+        "Computer vision",
+        "Natural language processing"
+      ],
+      "technologies": ["TensorFlow", "PyTorch", "OpenAI", "LangChain", "Hugging Face"]
+    },
+    "software": {
+      "title": "Custom Software",
+      "description": "We create custom systems that perfectly meet your business's specific needs, from ERPs to complex platforms.",
+      "benefits": [
+        "Scalable web systems",
+        "Robust APIs",
+        "Integration with legacy systems",
+        "Analytical dashboards",
+        "Workflow automation"
+      ],
+      "technologies": ["React", "Node.js", "Python", "PostgreSQL", "AWS"]
+    },
+    "mobile": {
+      "title": "Mobile Applications",
+      "description": "We develop native and hybrid mobile apps focused on performance, usability, and exceptional user experience.",
+      "benefits": [
+        "iOS and Android apps",
+        "Responsive design",
+        "API integration",
+        "Offline functionality",
+        "Push notifications"
+      ],
+      "technologies": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase"]
+    },
+    "process": {
+      "title": "Our Process",
+      "discovery": {
+        "title": "Discovery",
+        "description": "We deeply understand your business and challenges"
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "We create a detailed and personalized strategy"
+      },
+      "development": {
+        "title": "Development",
+        "description": "We execute with technical excellence and agility"
+      },
+      "delivery": {
+        "title": "Delivery",
+        "description": "We ensure quality and continuous support"
+      }
+    },
+    "cta": {
+      "title": "Let's Start Your Project?",
+      "description": "Contact us and discover how we can turn your ideas into reality",
+      "button": "Talk to a Specialist"
+    }
+  },
+  "cases": {
+    "hero": {
+      "title": "Our Success Stories",
+      "subtitle": "Discover some of the projects that transformed businesses"
+    },
+    "case1": {
+      "title": "AI System for E-commerce",
+      "description": "We developed an intelligent recommendation system that analyzes user behavior in real-time.",
+      "result": "+45% in sales",
+      "technologies": ["Python", "TensorFlow", "React", "AWS"]
+    },
+    "case2": {
+      "title": "Mobile App for Logistics",
+      "description": "Complete delivery management app with real-time tracking and route optimization.",
+      "result": "30% cost reduction",
+      "technologies": ["React Native", "Node.js", "MongoDB", "Google Maps API"]
+    },
+    "case3": {
+      "title": "Business Management Platform",
+      "description": "Complete custom ERP system for industry with production, inventory, and financial modules.",
+      "result": "50% more efficiency",
+      "technologies": ["React", "Python", "PostgreSQL", "Docker"]
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "testimonial1": {
+        "text": "TECTG completely transformed our operation. The AI system they developed exceeded all expectations.",
+        "author": "John Silva",
+        "role": "CEO, TechCorp"
+      },
+      "testimonial2": {
+        "text": "Exceptional professionalism and technical expertise. The app they created is exactly what we needed.",
+        "author": "Mary Santos",
+        "role": "IT Director, LogiMove"
+      },
+      "testimonial3": {
+        "text": "Strategic partnership that generated real results. I highly recommend TECTG.",
+        "author": "Charles Oliveira",
+        "role": "General Manager, XYZ Industries"
+      }
+    },
+    "cta": {
+      "title": "Ready to Be Our Next Success Story?",
+      "button": "Start My Project"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We are ready to turn your ideas into reality"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "contact@tectg.com",
+      "phone": "+55 (11) 99999-9999",
+      "location": "São Paulo, Brazil"
+    },
+    "form": {
+      "title": "Send Your Message",
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "phone": "Phone",
+      "projectType": "Project Type",
+      "message": "Message",
+      "submit": "Send Message",
+      "projectTypes": {
+        "ai": "Artificial Intelligence",
+        "software": "Custom Software",
+        "mobile": "Mobile App",
+        "consulting": "Consulting",
+        "other": "Other"
+      },
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again."
+    },
+    "cta": {
+      "title": "Prefer to Talk Directly?",
+      "description": "Contact us via WhatsApp for faster service",
+      "button": "Chat on WhatsApp"
+    }
+  },
+  "footer": {
+    "description": "Transforming businesses through technology and innovation",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}
