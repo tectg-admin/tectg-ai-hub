@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Cases from "./pages/Cases";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import "./i18n/config";
 
 const queryClient = new QueryClient();
 
