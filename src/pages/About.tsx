@@ -34,34 +34,34 @@ const About = () => {
       {/* Missão, Visão e Valores */}
       <section className="py-20 lg:py-32 bg-secondary">
         <div className="container mx-auto px-4 lg:px-8">
-          <h2 className="text-center text-white mb-16">Nossos Pilares</h2>
+          <h2 className="text-center text-foreground mb-16">Nossos Pilares</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="p-8 text-center space-y-4 hover:shadow-xl transition-all bg-white/10 border-white/20">
-              <div className="w-16 h-16 rounded-xl bg-accent/20 flex items-center justify-center mx-auto">
+            <Card className="p-8 text-center space-y-4 hover:shadow-xl transition-all">
+              <div className="w-16 h-16 rounded-xl bg-accent/10 flex items-center justify-center mx-auto">
                 <Target className="text-accent" size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-white">Missão</h3>
-              <p className="text-white/80 leading-relaxed">
+              <h3 className="text-2xl font-bold text-foreground">Missão</h3>
+              <p className="text-muted-foreground leading-relaxed">
                 Desenvolver soluções tecnológicas inovadoras que transformam negócios e maximizam resultados através da Inteligência Artificial e desenvolvimento de software de excelência.
               </p>
             </Card>
 
-            <Card className="p-8 text-center space-y-4 hover:shadow-xl transition-all bg-white/10 border-white/20">
-              <div className="w-16 h-16 rounded-xl bg-accent/20 flex items-center justify-center mx-auto">
+            <Card className="p-8 text-center space-y-4 hover:shadow-xl transition-all">
+              <div className="w-16 h-16 rounded-xl bg-accent/10 flex items-center justify-center mx-auto">
                 <Eye className="text-accent" size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-white">Visão</h3>
-              <p className="text-white/80 leading-relaxed">
+              <h3 className="text-2xl font-bold text-foreground">Visão</h3>
+              <p className="text-muted-foreground leading-relaxed">
                 Ser referência em soluções de IA e desenvolvimento de software no Brasil, reconhecida pela qualidade técnica, inovação e impacto positivo nos negócios dos nossos clientes.
               </p>
             </Card>
 
-            <Card className="p-8 text-center space-y-4 hover:shadow-xl transition-all bg-white/10 border-white/20">
-              <div className="w-16 h-16 rounded-xl bg-accent/20 flex items-center justify-center mx-auto">
+            <Card className="p-8 text-center space-y-4 hover:shadow-xl transition-all">
+              <div className="w-16 h-16 rounded-xl bg-accent/10 flex items-center justify-center mx-auto">
                 <Heart className="text-accent" size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-white">Valores</h3>
-              <p className="text-white/80 leading-relaxed">
+              <h3 className="text-2xl font-bold text-foreground">Valores</h3>
+              <p className="text-muted-foreground leading-relaxed">
                 Excelência técnica, inovação constante, transparência, compromisso com resultados e foco na satisfação do cliente em cada projeto que desenvolvemos.
               </p>
             </Card>

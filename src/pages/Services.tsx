@@ -112,7 +112,7 @@ const Services = () => {
       <section className="py-20 lg:py-32 bg-secondary">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-4xl mx-auto text-center space-y-12">
-            <h2 className="text-white">Nosso Processo</h2>
+            <h2 className="text-foreground">Nosso Processo</h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               {[
                 { number: "01", title: "Descoberta", description: "Entendemos seu negócio e desafios" },
@@ -121,9 +121,9 @@ const Services = () => {
                 { number: "04", title: "Entrega", description: "Deploy e suporte contínuo" },
               ].map((step, index) => (
                 <div key={index} className="space-y-3">
-                  <div className="text-5xl font-bold text-accent/30">{step.number}</div>
-                  <h3 className="text-xl font-bold text-white">{step.title}</h3>
-                  <p className="text-white/70 text-sm">{step.description}</p>
+                  <div className="text-5xl font-bold text-accent/20">{step.number}</div>
+                  <h3 className="text-xl font-bold text-foreground">{step.title}</h3>
+                  <p className="text-muted-foreground text-sm">{step.description}</p>
                 </div>
               ))}
             </div>

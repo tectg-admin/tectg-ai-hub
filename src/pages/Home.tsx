@@ -75,8 +75,8 @@ const Home = () => {
       <section className="py-20 lg:py-32 bg-secondary">
         <div className="container mx-auto px-4 lg:px-8">
           <div ref={servicesRef} className="text-center space-y-4 mb-16">
-            <h2 className="text-white">Nossas Soluções</h2>
-            <p className="text-lg text-white/70 max-w-2xl mx-auto">
+            <h2 className="text-foreground">Nossas Soluções</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Oferecemos soluções tecnológicas completas para impulsionar o crescimento do seu negócio
             </p>
           </div>
