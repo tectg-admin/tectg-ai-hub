@@ -22,21 +22,24 @@ const LanguageSwitcher = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="sm" className="gap-2">
+        <Button variant="outline" size="sm" className="gap-2 bg-white/10 text-white border-white/20 hover:bg-white/20 hover:text-white">
           <Globe className="h-4 w-4" />
           <span className="hidden md:inline">{currentLanguage.flag} {currentLanguage.name}</span>
           <span className="md:hidden">{currentLanguage.flag}</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent align="end" className="z-[100] bg-card border-border">
         {languages.map((language) => (
           <DropdownMenuItem
             key={language.code}
             onClick={() => i18n.changeLanguage(language.code)}
-            className="gap-2 cursor-pointer"
+            className="gap-2 cursor-pointer hover:bg-accent/10"
           >
-            <span>{language.flag}</span>
+            <span className="text-lg">{language.flag}</span>
             <span>{language.name}</span>
+            {currentLanguage.code === language.code && (
+              <span className="ml-auto text-accent">✓</span>
+            )}
           </DropdownMenuItem>
         ))}
       </DropdownMenuContent>
