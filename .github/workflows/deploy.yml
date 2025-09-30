@@ -36,5 +36,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           local-dir: ./dist/
-          server-dir: /domains/tectg.com.br/public_html
+          server-dir: /domains/tectg.com.br/public_html/
           dangerous-clean-slate: true
