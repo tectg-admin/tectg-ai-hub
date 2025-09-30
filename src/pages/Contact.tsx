@@ -21,27 +21,14 @@ const Contact = () => {
   });
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
     // Validação básica
     if (!formData.name || !formData.email || !formData.message) {
+      e.preventDefault();
       toast.error(t('contact.form.error'));
       return;
     }
-
-    // Aqui você pode integrar com seu backend ou serviço de email
-    console.log("Form submitted:", formData);
+    // FormSubmit irá processar o envio
     toast.success(t('contact.form.success'));
-    
-    // Limpar formulário
-    setFormData({
-      name: "",
-      email: "",
-      company: "",
-      phone: "",
-      projectType: "",
-      message: "",
-    });
   };
 
   const handleChange = (field: string, value: string) => {
@@ -126,12 +113,18 @@ const Contact = () => {
             {/* Formulário */}
             <div className="lg:col-span-2">
               <Card className="p-8">
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleSubmit} action="https://formsubmit.co/admin@tectg.com.br" method="POST" className="space-y-6">
+                  {/* FormSubmit configuration */}
+                  <input type="hidden" name="_subject" value="Novo contato do site TECTG" />
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input type="hidden" name="_template" value="table" />
+                  
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <Label htmlFor="name">{t('contact.form.name')} *</Label>
                       <Input
                         id="name"
+                        name="name"
                         value={formData.name}
                         onChange={(e) => handleChange("name", e.target.value)}
                         placeholder={t('contact.form.name')}
@@ -143,6 +136,7 @@ const Contact = () => {
                       <Label htmlFor="email">{t('contact.form.email')} *</Label>
                       <Input
                         id="email"
+                        name="email"
                         type="email"
                         value={formData.email}
                         onChange={(e) => handleChange("email", e.target.value)}
@@ -157,6 +151,7 @@ const Contact = () => {
                       <Label htmlFor="company">{t('contact.form.company')}</Label>
                       <Input
                         id="company"
+                        name="company"
                         value={formData.company}
                         onChange={(e) => handleChange("company", e.target.value)}
                         placeholder={t('contact.form.company')}
@@ -167,6 +162,7 @@ const Contact = () => {
                       <Label htmlFor="phone">{t('contact.form.phone')}</Label>
                       <Input
                         id="phone"
+                        name="phone"
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => handleChange("phone", e.target.value)}
@@ -177,7 +173,7 @@ const Contact = () => {
 
                   <div className="space-y-2">
                     <Label htmlFor="projectType">{t('contact.form.projectType')}</Label>
-                    <Select value={formData.projectType} onValueChange={(value) => handleChange("projectType", value)}>
+                    <Select name="projectType" value={formData.projectType} onValueChange={(value) => handleChange("projectType", value)}>
                       <SelectTrigger id="projectType">
                         <SelectValue placeholder={t('contact.form.projectType')} />
                       </SelectTrigger>
@@ -189,12 +185,14 @@ const Contact = () => {
                         <SelectItem value="outro">{t('contact.form.projectTypes.other')}</SelectItem>
                       </SelectContent>
                     </Select>
+                    <input type="hidden" name="projectType" value={formData.projectType} />
                   </div>
 
                   <div className="space-y-2">
                     <Label htmlFor="message">{t('contact.form.message')} *</Label>
                     <Textarea
                       id="message"
+                      name="message"
                       value={formData.message}
                       onChange={(e) => handleChange("message", e.target.value)}
                       placeholder={t('contact.form.message')}
