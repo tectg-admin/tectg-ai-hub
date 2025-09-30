@@ -31,9 +31,9 @@ jobs:
       - name: 🚀 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp://45.152.46.164
+          username: u864238653
+          password: Tectg@2025
           port: 21
           local-dir: ./dist/
           server-dir: /domains/tectg.com.br/public_html/
