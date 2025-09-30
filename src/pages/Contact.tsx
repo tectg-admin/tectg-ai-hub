@@ -228,7 +228,7 @@ const Contact = () => {
             </p>
             <Button asChild variant="accent" size="lg">
               <a
-                href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20soluções%20da%20TECTG."
+                href="https://wa.me/553194951031?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20soluções%20da%20TECTG."
                 target="_blank"
                 rel="noopener noreferrer"
               >

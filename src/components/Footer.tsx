@@ -83,14 +83,14 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-white/70 text-sm">
                 <Mail size={16} className="text-accent" />
-                <a href="mailto:contato@tectg.com.br" className="hover:text-accent transition-colors">
-                  contato@tectg.com.br
+                <a href="mailto:admin@tectg.com.br" className="hover:text-accent transition-colors">
+                  admin@tectg.com.br
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-white/70 text-sm">
                 <Phone size={16} className="text-accent" />
-                <a href="tel:+5511999999999" className="hover:text-accent transition-colors">
-                  +55 (11) 99999-9999
+                <a href="tel:+553194951031" className="hover:text-accent transition-colors">
+                  +55 31 9495-1031
                 </a>
               </li>
             </ul>

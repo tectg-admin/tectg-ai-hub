@@ -1,5 +1,5 @@
 const WhatsAppButton = () => {
-  const phoneNumber = "5511999999999"; // Substituir pelo número real
+  const phoneNumber = "553194951031";
   const message = "Olá! Gostaria de saber mais sobre as soluções da TECTG.";
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
